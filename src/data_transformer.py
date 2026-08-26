@@ -45,14 +45,24 @@ def transform_data(df_clean):
     # REVENUE & DISCOUNT
     # ========================================================
 
-    df_clean["discount_amount"] = (
-        df_clean["price"]
-        - df_clean["final_price"]
-    )
+    # Calculate discount amount
+    df_clean['discount_amount'] = (
+        df_clean['price'] * df_clean['discount'] / 100
+    ).round(2)
 
-    df_clean["revenue"] = (
-        df_clean["final_price"]
-    )
+    # Calculate final price
+    df_clean['final_price'] = (
+        df_clean['price'] - df_clean['discount_amount']
+    ).round(2)
+
+    # Revenue / sales amount
+    df_clean['revenue'] = df_clean['final_price'].round(2)
+
+    df_clean['price'] = df_clean['price'].round(2)
+    df_clean['discount'] = df_clean['discount'].round(2)
+    df_clean['discount_amount'] = df_clean['discount_amount'].round(2)
+    df_clean['final_price'] = df_clean['final_price'].round(2)
+    df_clean['revenue'] = df_clean['revenue'].round(2)
 
     print("✓ Revenue and discount_amount created")
 
