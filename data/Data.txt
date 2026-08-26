@@ -1,0 +1,75 @@
+================================================================================
+AMAZON E-COMMERCE DATASET (1,000,000 Rows)
+================================================================================
+
+This dataset is NOT stored in this GitHub repository due to its size (~130 MB),
+which exceeds GitHub's file size limit of 25 MB per file.
+
+📥 DATA SOURCES:
+================
+1. Original Source (Kaggle):
+   https://www.kaggle.com/datasets/sharmajicoder/amazon-e-commerce/data
+
+2. Processed Dataset (Google Drive):
+   https://drive.google.com/file/d/1WwnHqA-uPk0envcWFAGkAqdu3ctvGsnh/view?usp=drive_link
+
+📋 DATASET INFORMATION:
+=======================
+- Total Rows: 1,000,000
+- Total Columns: 20
+- File Size: ~130 MB
+- Format: CSV
+- Date Range: 2024-03-31 to 2026-03-31
+
+📊 COLUMN DESCRIPTIONS:
+=======================
+1. user_id            - Unique user identifier
+2. product_id         - Unique product identifier
+3. category           - Product category (Electronics, Sports, Beauty, Home, Clothing)
+4. subcategory        - Product subcategory
+5. brand              - Product brand
+6. price              - Original price (float)
+7. discount           - Discount percentage (float)
+8. final_price        - Price after discount (float)
+9. rating             - Product rating (1.0 - 5.0)
+10. review_count      - Number of reviews
+11. stock             - Available stock
+12. seller_id         - Seller identifier
+13. seller_rating     - Seller rating (1.0 - 5.0)
+14. purchase_date     - Purchase date (YYYY-MM-DD)
+15. shipping_time_days - Shipping duration in days
+16. location          - Customer location
+17. device            - Device used (Mobile App, Web, Tablet)
+18. payment_method    - Payment method
+19. is_returned       - Return status (True/False)
+20. delivery_status   - Delivery status (Delivered, Delayed, In Transit, Returned)
+
+📂 HOW TO USE:
+==============
+1. Download the processed dataset from Google Drive:
+   https://drive.google.com/file/d/1WwnHqA-uPk0envcWFAGkAqdu3ctvGsnh/view?usp=drive_link
+
+   OR download the original data from Kaggle:
+   https://www.kaggle.com/datasets/sharmajicoder/amazon-e-commerce/data
+
+2. Save the file to: data/raw/amazon_ecommerce_1M.csv
+
+3. Run the pipeline:
+   python scripts/run_pipeline.py
+
+📌 PROCESSED VS RAW DATA:
+=========================
+- **Raw Data:** Original dataset from Kaggle (20 columns)
+- **Processed Data:** Cleaned and transformed dataset (34 columns) 
+  Ready for staging and data warehouse loading.
+
+The processing pipeline adds:
+  - Date attributes (year, month, quarter, day, etc.)
+  - Revenue and discount metrics
+  - Business categories (shipping, rating, seller rating)
+  - Operational flags (return, delivered, delayed)
+
+================================================================================
+Project: Amazon E-Commerce Data Engineering Pipeline
+Created: January 2026
+================================================================================
