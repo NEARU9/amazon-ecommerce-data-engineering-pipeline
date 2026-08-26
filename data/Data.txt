@@ -71,5 +71,5 @@ The processing pipeline adds:
 
 ================================================================================
 Project: Amazon E-Commerce Data Engineering Pipeline
-Created: January 2026
+Created: August 2026
 ================================================================================
