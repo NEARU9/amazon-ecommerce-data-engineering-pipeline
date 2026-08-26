@@ -16,6 +16,29 @@ The processed datasets are stored locally as CSV files and can then be loaded in
 
 ---
 
+## 📊 Dataset
+
+This project uses the **Amazon E-Commerce Dataset** with 1,000,000 transaction records.
+
+### Data Sources
+
+| Source | Link | Description |
+|--------|------|-------------|
+| **Kaggle (Original)** | [Amazon E-Commerce Dataset](https://www.kaggle.com/datasets/sharmajicoder/amazon-e-commerce/data) | Original raw dataset (20 columns) |
+| **Google Drive (Processed)** | [Processed Dataset](https://drive.google.com/file/d/1WwnHqA-uPk0envcWFAGkAqdu3ctvGsnh/view?usp=drive_link) | Cleaned and transformed dataset (34 columns), ready for staging |
+
+### Dataset Information
+
+- **Total Rows:** 1,000,000
+- **Total Columns:** 20 (raw) / 34 (processed)
+- **File Size:** ~130 MB
+- **Format:** CSV
+- **Date Range:** 2024-03-31 to 2026-03-31
+
+> **Note:** The dataset is not stored in this repository due to GitHub's file size limit (25 MB per file). Please download from the links above.
+
+---
+
 ## 🏗️ Data Engineering Workflow
 
 The project follows these main stages:
