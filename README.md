@@ -44,28 +44,35 @@ This project uses the **Amazon E-Commerce Dataset** with 1,000,000 transaction r
 The project follows these main stages:
 
 ```text
-Raw CSV Data
-     |
-     v
-1. Data Loading
-     |
-     v
-2. Data Profiling
-     |
-     v
-3. Data Quality Validation
-     |
-     v
-4. Data Cleaning
-     |
-     v
-5. Data Transformation
-     |
-     v
-6. Data Modeling
-     |
-     v
-7. Data Warehouse
-     |
-     v
-Google BigQuery
+
+ Raw CSV Data
+      |
+      v
+1.  Data Loading
+      |
+      v
+2.  Data Profiling
+      |
+      v
+3.  Data Quality Validation
+      |
+      v
+4.  Data Cleaning
+      |
+      v
+5.  Data Transformation
+      |
+      v
+6.  Data Modeling
+      |
+      v
+7.  Data Warehouse
+      |
+      v
+8.  Google BigQuery
+      |
+      v
+9.  Power BI
+      |
+      v
+10. Analytics Dashboard
