@@ -1,0 +1,6 @@
+Power BI Dashboard
+
+The Power BI (.pbix) file is hosted on Google Drive because the file size exceeds GitHub's recommended repository file size.
+
+Download / View Power BI Dashboard:
+https://drive.google.com/file/d/1kH3YBAwmI1DJZjmD4n43FOfU_YcodpOv/view?usp=drive_link
