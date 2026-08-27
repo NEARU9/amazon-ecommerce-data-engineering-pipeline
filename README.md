@@ -16,6 +16,8 @@ The processed datasets are stored locally as CSV files and can then be loaded in
 
 ---
 
+![image alt](https://github.com/NEARU9/amazon-ecommerce-data-engineering-pipeline/blob/main/image/power%20bi%20dashboard.png)
+
 ## 📊 Dataset
 
 This project uses the **Amazon E-Commerce Dataset** with 1,000,000 transaction records.
