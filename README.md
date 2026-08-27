@@ -77,11 +77,11 @@ The project follows these main stages:
       v
 10. Analytics Dashboard
 
----
+```---
 
 ## 📈 Power BI Dashboard
 
-![Power BI Dashboard](image/power_bi_dashboard.png)
+![Power BI Dashboard](image/power bi dashboard.png)
 
 ---
 
@@ -93,4 +93,4 @@ The project follows these main stages:
 
 ## 🏗️ Database Structure
 
-![Database Structure](image/database_structure.png)
+![Database Structure](image/database structure.png)
