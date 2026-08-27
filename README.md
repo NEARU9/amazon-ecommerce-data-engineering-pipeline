@@ -81,7 +81,7 @@ The project follows these main stages:
 
 ## 📈 Power BI Dashboard
 
-![Power BI Dashboard](image/power bi dashboard.png)
+![image alt](https://github.com/NEARU9/amazon-ecommerce-data-engineering-pipeline/blob/main/image/power%20bi%20dashboard.png)
 
 ---
 
