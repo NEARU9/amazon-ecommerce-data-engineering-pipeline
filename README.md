@@ -16,7 +16,16 @@ The processed datasets are stored locally as CSV files and can then be loaded in
 
 ---
 
+## 🗺️ Project Roadmap
+![image alt](https://github.com/NEARU9/amazon-ecommerce-data-engineering-pipeline/blob/main/image/roadmap.png)
+
+## 🏗️ Database Structure
+![image alt](https://github.com/NEARU9/amazon-ecommerce-data-engineering-pipeline/blob/main/image/structur%20database.png)
+
+## 📈 Power BI Dashboard
 ![image alt](https://github.com/NEARU9/amazon-ecommerce-data-engineering-pipeline/blob/main/image/power%20bi%20dashboard.png)
+
+
 
 ## 📊 Dataset
 
@@ -78,21 +87,3 @@ The project follows these main stages:
       |
       v
 10. Analytics Dashboard
-
----
-
-## 📈 Power BI Dashboard
-
-![image alt](https://github.com/NEARU9/amazon-ecommerce-data-engineering-pipeline/blob/main/image/power%20bi%20dashboard.png)
-
----
-
-## 🗺️ Project Roadmap
-
-![Project Roadmap](image/roadmap.png)
-
----
-
-## 🏗️ Database Structure
-
-![Database Structure](image/database structure.png)
