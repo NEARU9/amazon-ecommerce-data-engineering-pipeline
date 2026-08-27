@@ -77,7 +77,7 @@ The project follows these main stages:
       v
 10. Analytics Dashboard
 
-```---
+---
 
 ## 📈 Power BI Dashboard
 
