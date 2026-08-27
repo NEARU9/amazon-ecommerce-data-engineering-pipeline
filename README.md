@@ -81,9 +81,7 @@ The project follows these main stages:
 
 ## 📈 Power BI Dashboard
 
-![Power BI Dashboard](image/power%20bi%20dashboard.png)
-
-*Figure 1: Executive dashboard showing key e-commerce metrics*
+![Power BI Dashboard](image/power_bi_dashboard.png)
 
 ---
 
@@ -91,14 +89,8 @@ The project follows these main stages:
 
 ![Project Roadmap](image/roadmap.png)
 
-*Figure 2: Data engineering project roadmap and timeline*
-
 ---
 
 ## 🏗️ Database Structure
 
-![Database Structure](image/structur%20database.png)
-
-*Figure 3: Star schema database structure showing fact and dimension tables*
-
----
+![Database Structure](image/database_structure.png)
